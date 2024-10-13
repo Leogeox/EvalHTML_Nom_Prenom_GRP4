@@ -1,0 +1,472 @@
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(210, 198, 181);
+    margin-top: -9px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-bottom: -10px ;
+    padding-right: 10px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    border: 4px solid rgb(210, 198, 181);
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    margin-left:-10px;
+}
+
+.misepage{
+    text-decoration: none;
+    right: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: black;
+    list-style: none;
+}
+
+.text-header {
+    color: black;
+    list-style: none;
+}
+
+.title {
+    margin-top: 30px;
+    margin-right: 850px;
+}
+
+
+
+
+
+section {
+    background-color: rgb(50, 50, 50) ;
+    width: 88%;
+    padding-top: 120px;
+    padding-bottom: -5px;  
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    color: white;
+}
+
+/* place image puis place des textes */
+
+.placeluffy {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.place2 {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 857px;
+    margin-top: -300px;
+    margin-bottom: 10px;
+}
+
+.up {
+    display: flex;
+   margin-top: -400px;
+   margin-bottom: 50px;
+}
+
+.down {
+    display: flex;
+    margin-top: 500px;
+}
+
+.place3 {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: -355px;
+    margin-bottom: 20px;
+}
+
+.findepage {
+    margin-bottom: 80px;
+}
+
+/* ---------- */
+
+.text-luffy {
+    margin-left: 500px;
+    margin-bottom: -400px;
+    margin-top: 150px;
+    margin-right: 20px;
+    color: rgb(254, 255, 255);
+    font-size: 120%; 
+}
+
+.text-2 { 
+    color: rgb(254, 255, 255);
+    font-size: 120%; 
+    margin-left: 20px;
+    margin-right: 500px;
+}
+
+.text-3 {
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-size: 120%; 
+    margin-left: 500px;
+}
+
+/* --------------------- */
+
+.red {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -130px;
+    padding-top: 100px;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: crimson;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 43px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    color: rgb(146, 198, 94);
+}
+
+.orange {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 160px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: rgb(209, 137, 49);
+}
+
+.yellow {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 163px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: rgb(217, 187, 16);
+}
+
+.brown {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 163px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color:rgb(186, 105, 46)
+}
+
+.Pink {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 40px; 
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color:rgb(207, 62, 135)
+}
+
+.Purple {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 40px; 
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color:rgb(137, 68, 202)
+}
+
+.Blue {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 70px; 
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color:rgb(77, 210, 210)
+}
+
+.Gray {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 80px; 
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: darkgray
+}
+
+.Darkerblue {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-right: 80px; 
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: rgb(73, 145, 216)
+}
+
+/* une couleur -> un personnage */
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    bottom: 7;
+    justify-content: space-between;
+    background-color: rgb(210, 198, 181);
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+
+
+
+.img1 {
+    list-style: none;
+    display: flex;
+    width: 10%;
+    margin-left: -700px;
+    margin-top: -50px;
+    border: 3px solid rgb(69, 65, 65);
+}
+
+.txt-footer1 {
+    list-style: none;
+    display: flex;
+    color: black;
+    font-size: 90%;
+    margin-top: 90px;
+    margin-left: -640px;
+    margin-bottom: 20px;
+}
+
+
+.txt-footer2 {
+    display: flex;
+    color: black;
+    font-size: 90%;
+    margin-top: 30px;
+    margin-left: -640px;
+    margin-bottom: -20px;
+}
+
+.img2 {
+    display: flex;
+    width: 10%;
+    margin-left: -700px;
+    margin-top: -30px; 
+    border: 3px solid rgb(69, 65, 65);
+}
+
+
+.txt-footer3 {
+    display: flex;
+    color: black;
+    font-size: 90%;
+    margin-top: 30px;
+    margin-left: -640px;
+    margin-bottom: -20px;
+}
+
+.img3 {
+    display: flex;
+    width: 10%;
+    margin-left: -700px;
+    margin-top: -30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+.txt-footer4 {
+    display: flex;
+    color: black;
+    font-size: 90%;
+    margin-top: 30px;
+    margin-left: -640px;
+    margin-bottom: -20px;
+}
+
+.img4 {
+    display: flex;
+    width: 10%;
+    margin-left: -700px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+#logo1 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-left: 900px;
+    margin-right: -200px;
+    margin-top: 80px;
+    z-index: 2;
+    position: absolute;
+}
+
+
+a:hover {
+    color: rgb(250, 71, 71);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #image {
+        display: none;
+    }
+
+       /* header*/
+       .th1 {
+        display: flex;
+        margin-left: -890px;
+        margin-right: 900px;
+    }
+
+    #logo {
+        margin-left: -70px;
+    }
+
+    .title {
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    /* main*/
+    h1 {
+        margin-left: 40px;
+    }
+
+    section {
+        width: 85%;
+    }
+
+    .text-2 {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    .text-3 {
+        margin-left: 30px;
+    }
+    /* mettre les texte a gauche pour qu'ils soit visible*/
+
+    .text-luffy {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .red {
+        margin-top: -60px;
+    }
+
+    .tfdp {
+        margin-bottom: 30px;
+    }
+
+    /* rajout d'espace entre le texte et la fin de la section*/
+
+    /* footer*/
+    #logo1 {
+        margin-left: 200px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .img1 {
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+
+    .img2 {
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+
+    .img3 {
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+
+    .img4 {
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+  
+}
